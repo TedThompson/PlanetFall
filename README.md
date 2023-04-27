@@ -1,6 +1,8 @@
 # PlanetFall
 A Lunar Lander Adventure for the Apple IIe
 
+![Splash Screen](https://github.com/TedThompson/PlanetFall/raw/main/splash.pic.jpg)
+
 ## PLANETFALL README
 
 &nbsp;&nbsp;&nbsp;&nbsp;Planet Fall is a lunar lander genre
