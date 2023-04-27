@@ -1,0 +1,145 @@
+1000-   D7          ???
+1001-   04 AC       TSB   $AC
+1003-   D9 BB E0    CMP   $E0BB,Y
+1006-   12 3C       ORA   ($3C)
+1008-   D5 D5       CMP   $D5,X
+100A-   3C 0A DB    BIT   $DB0A,X
+100D-   3D 5F A3    AND   $A35F,X
+1010-   F1 B8       SBC   ($B8),Y
+1012-   83          ???
+1013-   C6 60       DEC   $60
+1015-   89 FC       BIT   #$FC
+1017-   A3          ???
+1018-   67          ???
+1019-   DF          ???
+101A-   41 8E       EOR   ($8E,X)
+101C-   F1 C1       SBC   ($C1),Y
+101E-   C0 F0       CPY   #$F0
+1020-   61 05       ADC   ($05,X)
+1022-   2E E2 D8    ROL   $D8E2
+1025-   65 78       ADC   $78
+1027-   9E A8 83    STZ   $83A8,X
+102A-   05 27       ORA   $27
+102C-   11 A8       ORA   ($A8),Y
+102E-   B0 D1       BCS   $1001
+1030-   0C 67 35    TSB   $3567
+1033-   59 D3 45    EOR   $45D3,Y
+1036-   E8          INX
+1037-   3A          DEC
+1038-   D3          ???
+1039-   2C 16 2E    BIT   $2E16
+103C-   1D A7 99    ORA   $99A7,X
+103F-   0D 74 EE    ORA   $EE74
+1042-   06 E2       ASL   $E2
+1044-   C4 E5       CPY   $E5
+1046-   FC          ???
+1047-   74 CF       STZ   $CF,X
+1049-   08          PHP
+104A-   FA          PLX
+104B-   C7          ???
+104C-   42          ???
+104D-   B5 4D       LDA   $4D,X
+104F-   45 E7       EOR   $E7
+1051-   B2 43       LDA   ($43)
+1053-   FC          ???
+1054-   41 2B       EOR   ($2B,X)
+1056-   3F          ???
+1057-   BB          ???
+1058-   67          ???
+1059-   EB          ???
+105A-   D9 EA CD    CMP   $CDEA,Y
+105D-   4C 6D 3A    JMP   $3A6D
+1060-   8E EF 9B    STX   $9BEF
+1063-   1E E3 9A    ASL   $9AE3,X
+1066-   33          ???
+1067-   15 A2       ORA   $A2,X
+1069-   F1 64       SBC   ($64),Y
+106B-   ED AC BB    SBC   $BBAC
+106E-   A6 7E       LDX   $7E
+1070-   B0 10       BCS   $1082
+1072-   9F          ???
+1073-   E8          INX
+1074-   73          ???
+1075-   D1 07       CMP   ($07),Y
+1077-   71 83       ADC   ($83),Y
+1079-   4C F5 7D    JMP   $7DF5
+107C-   8B          ???
+107D-   38          SEC
+107E-   27          ???
+107F-   75 F2       ADC   $F2,X
+1081-   E8          INX
+1082-   5D 3D 59    EOR   $593D,X
+1085-   70 E8       BVS   $106F
+1087-   7C 73 03    JMP   ($0373,X)
+108A-   9A          TXS
+108B-   DB          ???
+108C-   E0 41       CPX   #$41
+108E-   0F          ???
+108F-   45 67       EOR   $67
+1091-   44          ???
+1092-   F3          ???
+1093-   25 70       AND   $70
+1095-   6A          ROR
+1096-   13          ???
+1097-   B4 C9       LDY   $C9,X
+1099-   A7          ???
+109A-   7F          ???
+109B-   B6 56       LDX   $56,Y
+109D-   6E 3E 97    ROR   $973E
+10A0-   53          ???
+10A1-   F2 48       SBC   ($48)
+10A3-   8D CD 91    STA   $91CD
+10A6-   38          SEC
+10A7-   8C DC D4    STY   $D4DC
+10AA-   58          CLI
+10AB-   1F          ???
+10AC-   6C EF B8    JMP   ($B8EF)
+10AF-   25 F6       AND   $F6
+10B1-   F8          SED
+10B2-   4A          LSR
+10B3-   38          SEC
+10B4-   DF          ???
+10B5-   86 62       STX   $62
+10B7-   37          ???
+10B8-   7B          ???
+10B9-   4F          ???
+10BA-   E9 98       SBC   #$98
+10BC-   27          ???
+10BD-   C6 B7       DEC   $B7
+10BF-   BD 07 AF    LDA   $AF07,X
+10C2-   1D 8E BF    ORA   $BF8E,X
+10C5-   56 63       LSR   $63,X
+10C7-   E5 05       SBC   $05
+10C9-   F2 C0       SBC   ($C0)
+10CB-   F4          ???
+10CC-   F3          ???
+10CD-   32 AD       AND   ($AD)
+10CF-   98          TYA
+10D0-   61 50       ADC   ($50,X)
+10D2-   BB          ???
+10D3-   F1 9F       SBC   ($9F),Y
+10D5-   F7          ???
+10D6-   8E 58 BB    STX   $BB58
+10D9-   6F          ???
+10DA-   41 86       EOR   ($86,X)
+10DC-   E7          ???
+10DD-   AA          TAX
+10DE-   03          ???
+10DF-   5A          PHY
+10E0-   8C 21 54    STY   $5421
+10E3-   96 E8       STX   $E8,Y
+10E5-   CE C1 5C    DEC   $5CC1
+10E8-   75 61       ADC   $61,X
+10EA-   92 E1       STA   ($E1)
+10EC-   83          ???
+10ED-   6C E0 49    JMP   ($49E0)
+10F0-   0F          ???
+10F1-   D6 3D       DEC   $3D,X
+10F3-   E7          ???
+10F4-   C1 66       CMP   ($66,X)
+10F6-   21 9D       AND   ($9D,X)
+10F8-   36 19       ROL   $19,X
+10FA-   08          PHP
+10FB-   49 F3       EOR   #$F3
+10FD-   D7          ???
+10FE-   CF          ???

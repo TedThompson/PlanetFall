@@ -1,0 +1,539 @@
+08D8-   1C 22 2A    TRB   $2A22
+08DB-   3A          DEC
+08DC-   1A          INC
+08DD-   02          ???
+08DE-   1C 00 08    TRB   $0800
+08E1-   14 22       TRB   $22
+08E3-   22          ???
+08E4-   3E 22 22    ROL   $2222,X
+08E7-   00          BRK
+08E8-   1E 22 22    ASL   $2222,X
+08EB-   1E 22 22    ASL   $2222,X
+08EE-   1E 00 1C    ASL   $1C00,X
+08F1-   22          ???
+08F2-   02          ???
+08F3-   02          ???
+08F4-   02          ???
+08F5-   22          ???
+08F6-   1C 00 1E    TRB   $1E00
+08F9-   22          ???
+08FA-   22          ???
+08FB-   22          ???
+08FC-   22          ???
+08FD-   22          ???
+08FE-   1E 00 3E    ASL   $3E00,X
+0901-   02          ???
+0902-   02          ???
+0903-   1E 02 02    ASL   $0202,X
+0906-   3E 00 3E    ROL   $3E00,X
+0909-   02          ???
+090A-   02          ???
+090B-   1E 02 02    ASL   $0202,X
+090E-   02          ???
+090F-   00          BRK
+0910-   1C 22 02    TRB   $0222
+0913-   02          ???
+0914-   32 22       AND   ($22)
+0916-   3C 00 22    BIT   $2200,X
+0919-   22          ???
+091A-   22          ???
+091B-   3E 22 22    ROL   $2222,X
+091E-   22          ???
+091F-   00          BRK
+0920-   1C 08 08    TRB   $0808
+0923-   08          PHP
+0924-   08          PHP
+0925-   08          PHP
+0926-   1C 00 20    TRB   $2000
+0929-   20 20 20    JSR   $2020
+092C-   20 22 1C    JSR   $1C22
+092F-   00          BRK
+0930-   22          ???
+0931-   12 0A       ORA   ($0A)
+0933-   06 0A       ASL   $0A
+0935-   12 22       ORA   ($22)
+0937-   00          BRK
+0938-   02          ???
+0939-   02          ???
+093A-   02          ???
+093B-   02          ???
+093C-   02          ???
+093D-   02          ???
+093E-   3E 00 22    ROL   $2200,X
+0941-   36 2A       ROL   $2A,X
+0943-   2A          ROL
+0944-   22          ???
+0945-   22          ???
+0946-   22          ???
+0947-   00          BRK
+0948-   22          ???
+0949-   22          ???
+094A-   26 2A       ROL   $2A
+094C-   32 22       AND   ($22)
+094E-   22          ???
+094F-   00          BRK
+0950-   1C 22 22    TRB   $2222
+0953-   22          ???
+0954-   22          ???
+0955-   22          ???
+0956-   1C 00 1E    TRB   $1E00
+0959-   22          ???
+095A-   22          ???
+095B-   1E 02 02    ASL   $0202,X
+095E-   02          ???
+095F-   00          BRK
+0960-   1C 22 22    TRB   $2222
+0963-   22          ???
+0964-   2A          ROL
+0965-   12 2C       ORA   ($2C)
+0967-   00          BRK
+0968-   1E 22 22    ASL   $2222,X
+096B-   1E 0A 12    ASL   $120A,X
+096E-   22          ???
+096F-   00          BRK
+0970-   1C 22 02    TRB   $0222
+0973-   1C 20 22    TRB   $2220
+0976-   1C 00 3E    TRB   $3E00
+0979-   08          PHP
+097A-   08          PHP
+097B-   08          PHP
+097C-   08          PHP
+097D-   08          PHP
+097E-   08          PHP
+097F-   00          BRK
+0980-   22          ???
+0981-   22          ???
+0982-   22          ???
+0983-   22          ???
+0984-   22          ???
+0985-   22          ???
+0986-   1C 00 22    TRB   $2200
+0989-   22          ???
+098A-   22          ???
+098B-   22          ???
+098C-   22          ???
+098D-   14 08       TRB   $08
+098F-   00          BRK
+0990-   22          ???
+0991-   22          ???
+0992-   22          ???
+0993-   2A          ROL
+0994-   2A          ROL
+0995-   36 22       ROL   $22,X
+0997-   00          BRK
+0998-   22          ???
+0999-   22          ???
+099A-   14 08       TRB   $08
+099C-   14 22       TRB   $22
+099E-   22          ???
+099F-   00          BRK
+09A0-   22          ???
+09A1-   22          ???
+09A2-   14 08       TRB   $08
+09A4-   08          PHP
+09A5-   08          PHP
+09A6-   08          PHP
+09A7-   00          BRK
+09A8-   3E 20 10    ROL   $1020,X
+09AB-   08          PHP
+09AC-   04 02       TSB   $02
+09AE-   3E 00 3E    ROL   $3E00,X
+09B1-   06 06       ASL   $06
+09B3-   06 06       ASL   $06
+09B5-   06 3E       ASL   $3E
+09B7-   00          BRK
+09B8-   00          BRK
+09B9-   02          ???
+09BA-   04 08       TSB   $08
+09BC-   10 20       BPL   $09DE
+09BE-   40          RTI
+09BF-   00          BRK
+09C0-   3E 30 30    ROL   $3030,X
+09C3-   30 30       BMI   $09F5
+09C5-   30 3E       BMI   $0A05
+09C7-   00          BRK
+09C8-   00          BRK
+09C9-   00          BRK
+09CA-   08          PHP
+09CB-   14 22       TRB   $22
+09CD-   00          BRK
+09CE-   00          BRK
+09CF-   00          BRK
+09D0-   00          BRK
+09D1-   00          BRK
+09D2-   00          BRK
+09D3-   00          BRK
+09D4-   00          BRK
+09D5-   00          BRK
+09D6-   00          BRK
+09D7-   3E 00 00    ROL   $0000,X
+09DA-   00          BRK
+09DB-   00          BRK
+09DC-   00          BRK
+09DD-   00          BRK
+09DE-   00          BRK
+09DF-   00          BRK
+09E0-   08          PHP
+09E1-   08          PHP
+09E2-   08          PHP
+09E3-   08          PHP
+09E4-   08          PHP
+09E5-   00          BRK
+09E6-   08          PHP
+09E7-   00          BRK
+09E8-   14 14       TRB   $14
+09EA-   14 00       TRB   $00
+09EC-   00          BRK
+09ED-   00          BRK
+09EE-   00          BRK
+09EF-   00          BRK
+09F0-   14 14       TRB   $14
+09F2-   3E 14 3E    ROL   $3E14,X
+09F5-   14 14       TRB   $14
+09F7-   00          BRK
+09F8-   08          PHP
+09F9-   3C 0A 1C    BIT   $1C0A,X
+09FC-   28          PLP
+09FD-   18          CLC
+09FE-   0E 00 06    ASL   $0600
+0A01-   26 10       ROL   $10
+0A03-   08          PHP
+0A04-   04 32       TSB   $32
+0A06-   30 00       BMI   $0A08
+0A08-   04 0A       TSB   $0A
+0A0A-   0A          ASL
+0A0B-   04 2A       TSB   $2A
+0A0D-   12 2C       ORA   ($2C)
+0A0F-   00          BRK
+0A10-   08          PHP
+0A11-   08          PHP
+0A12-   08          PHP
+0A13-   00          BRK
+0A14-   00          BRK
+0A15-   00          BRK
+0A16-   00          BRK
+0A17-   00          BRK
+0A18-   08          PHP
+0A19-   04 02       TSB   $02
+0A1B-   02          ???
+0A1C-   02          ???
+0A1D-   04 08       TSB   $08
+0A1F-   00          BRK
+0A20-   08          PHP
+0A21-   10 20       BPL   $0A43
+0A23-   20 20 10    JSR   $1020
+0A26-   08          PHP
+0A27-   00          BRK
+0A28-   08          PHP
+0A29-   2A          ROL
+0A2A-   1C 08 1C    TRB   $1C08
+0A2D-   2A          ROL
+0A2E-   08          PHP
+0A2F-   00          BRK
+0A30-   00          BRK
+0A31-   08          PHP
+0A32-   08          PHP
+0A33-   3E 08 08    ROL   $0808,X
+0A36-   00          BRK
+0A37-   00          BRK
+0A38-   00          BRK
+0A39-   00          BRK
+0A3A-   00          BRK
+0A3B-   00          BRK
+0A3C-   08          PHP
+0A3D-   08          PHP
+0A3E-   04 00       TSB   $00
+0A40-   00          BRK
+0A41-   00          BRK
+0A42-   00          BRK
+0A43-   3E 00 00    ROL   $0000,X
+0A46-   00          BRK
+0A47-   00          BRK
+0A48-   00          BRK
+0A49-   00          BRK
+0A4A-   00          BRK
+0A4B-   00          BRK
+0A4C-   00          BRK
+0A4D-   00          BRK
+0A4E-   08          PHP
+0A4F-   00          BRK
+0A50-   00          BRK
+0A51-   20 10 08    JSR   $0810
+0A54-   04 02       TSB   $02
+0A56-   00          BRK
+0A57-   00          BRK
+0A58-   1C 22 32    TRB   $3222
+0A5B-   2A          ROL
+0A5C-   26 22       ROL   $22
+0A5E-   1C 00 08    TRB   $0800
+0A61-   0C 08 08    TSB   $0808
+0A64-   08          PHP
+0A65-   08          PHP
+0A66-   1C 00 1C    TRB   $1C00
+0A69-   22          ???
+0A6A-   20 18 04    JSR   $0418
+0A6D-   02          ???
+0A6E-   3E 00 3E    ROL   $3E00,X
+0A71-   20 10 18    JSR   $1810
+0A74-   20 22 1C    JSR   $1C22
+0A77-   00          BRK
+0A78-   10 18       BPL   $0A92
+0A7A-   14 12       TRB   $12
+0A7C-   3E 10 10    ROL   $1010,X
+0A7F-   00          BRK
+0A80-   3E 02 1E    ROL   $1E02,X
+0A83-   20 20 22    JSR   $2220
+0A86-   1C 00 38    TRB   $3800
+0A89-   04 02       TSB   $02
+0A8B-   1E 22 22    ASL   $2222,X
+0A8E-   1C 00 3E    TRB   $3E00
+0A91-   20 10 08    JSR   $0810
+0A94-   04 04       TSB   $04
+0A96-   04 00       TSB   $00
+0A98-   1C 22 22    TRB   $2222
+0A9B-   1C 22 22    TRB   $2222
+0A9E-   1C 00 1C    TRB   $1C00
+0AA1-   22          ???
+0AA2-   22          ???
+0AA3-   3C 20 10    BIT   $1020,X
+0AA6-   0E 00 00    ASL   $0000
+0AA9-   00          BRK
+0AAA-   08          PHP
+0AAB-   00          BRK
+0AAC-   08          PHP
+0AAD-   00          BRK
+0AAE-   00          BRK
+0AAF-   00          BRK
+0AB0-   00          BRK
+0AB1-   00          BRK
+0AB2-   08          PHP
+0AB3-   00          BRK
+0AB4-   08          PHP
+0AB5-   08          PHP
+0AB6-   04 00       TSB   $00
+0AB8-   10 08       BPL   $0AC2
+0ABA-   04 02       TSB   $02
+0ABC-   04 08       TSB   $08
+0ABE-   10 00       BPL   $0AC0
+0AC0-   00          BRK
+0AC1-   00          BRK
+0AC2-   3E 00 3E    ROL   $3E00,X
+0AC5-   00          BRK
+0AC6-   00          BRK
+0AC7-   00          BRK
+0AC8-   04 08       TSB   $08
+0ACA-   10 20       BPL   $0AEC
+0ACC-   10 08       BPL   $0AD6
+0ACE-   04 00       TSB   $00
+0AD0-   1C 22 10    TRB   $1022
+0AD3-   08          PHP
+0AD4-   08          PHP
+0AD5-   00          BRK
+0AD6-   08          PHP
+0AD7-   00          BRK
+0AD8-   00          BRK
+0AD9-   00          BRK
+0ADA-   1C 22 3E    TRB   $3E22
+0ADD-   22          ???
+0ADE-   22          ???
+0ADF-   00          BRK
+0AE0-   00          BRK
+0AE1-   00          BRK
+0AE2-   1E 24 1C    ASL   $1C24,X
+0AE5-   24 1E       BIT   $1E
+0AE7-   00          BRK
+0AE8-   00          BRK
+0AE9-   00          BRK
+0AEA-   3C 02 02    BIT   $0202,X
+0AED-   02          ???
+0AEE-   3C 00 00    BIT   $0000,X
+0AF1-   00          BRK
+0AF2-   1E 24 24    ASL   $2424,X
+0AF5-   24 1E       BIT   $1E
+0AF7-   00          BRK
+0AF8-   00          BRK
+0AF9-   00          BRK
+0AFA-   1E 02 0E    ASL   $0E02,X
+0AFD-   02          ???
+0AFE-   1E 00 00    ASL   $0000,X
+0B01-   00          BRK
+0B02-   1E 02 0E    ASL   $0E02,X
+0B05-   02          ???
+0B06-   02          ???
+0B07-   00          BRK
+0B08-   00          BRK
+0B09-   00          BRK
+0B0A-   3C 02 3A    BIT   $3A02,X
+0B0D-   22          ???
+0B0E-   1C 00 00    TRB   $0000
+0B11-   00          BRK
+0B12-   22          ???
+0B13-   22          ???
+0B14-   3E 22 22    ROL   $2222,X
+0B17-   00          BRK
+0B18-   00          BRK
+0B19-   00          BRK
+0B1A-   3E 08 08    ROL   $0808,X
+0B1D-   08          PHP
+0B1E-   3E 00 00    ROL   $0000,X
+0B21-   00          BRK
+0B22-   1C 08 08    TRB   $0808
+0B25-   0A          ASL
+0B26-   0E 00 00    ASL   $0000
+0B29-   00          BRK
+0B2A-   12 0A       ORA   ($0A)
+0B2C-   06 0A       ASL   $0A
+0B2E-   12 00       ORA   ($00)
+0B30-   00          BRK
+0B31-   00          BRK
+0B32-   02          ???
+0B33-   02          ???
+0B34-   02          ???
+0B35-   02          ???
+0B36-   3E 00 00    ROL   $0000,X
+0B39-   00          BRK
+0B3A-   22          ???
+0B3B-   36 2A       ROL   $2A,X
+0B3D-   22          ???
+0B3E-   22          ???
+0B3F-   00          BRK
+0B40-   00          BRK
+0B41-   00          BRK
+0B42-   22          ???
+0B43-   26 2A       ROL   $2A
+0B45-   32 22       AND   ($22)
+0B47-   00          BRK
+0B48-   00          BRK
+0B49-   00          BRK
+0B4A-   3E 22 22    ROL   $2222,X
+0B4D-   22          ???
+0B4E-   3E 00 00    ROL   $0000,X
+0B51-   00          BRK
+0B52-   1E 22 1E    ASL   $1E22,X
+0B55-   02          ???
+0B56-   02          ???
+0B57-   00          BRK
+0B58-   00          BRK
+0B59-   00          BRK
+0B5A-   3E 22 2A    ROL   $2A22,X
+0B5D-   12 2E       ORA   ($2E)
+0B5F-   00          BRK
+0B60-   00          BRK
+0B61-   00          BRK
+0B62-   1E 22 1E    ASL   $1E22,X
+0B65-   0A          ASL
+0B66-   12 00       ORA   ($00)
+0B68-   00          BRK
+0B69-   00          BRK
+0B6A-   3C 02 1C    BIT   $1C02,X
+0B6D-   20 1E 00    JSR   $001E
+0B70-   00          BRK
+0B71-   00          BRK
+0B72-   3E 08 08    ROL   $0808,X
+0B75-   08          PHP
+0B76-   08          PHP
+0B77-   00          BRK
+0B78-   00          BRK
+0B79-   00          BRK
+0B7A-   22          ???
+0B7B-   22          ???
+0B7C-   22          ???
+0B7D-   22          ???
+0B7E-   1C 00 00    TRB   $0000
+0B81-   00          BRK
+0B82-   22          ???
+0B83-   22          ???
+0B84-   12 0A       ORA   ($0A)
+0B86-   04 00       TSB   $00
+0B88-   00          BRK
+0B89-   00          BRK
+0B8A-   22          ???
+0B8B-   22          ???
+0B8C-   2A          ROL
+0B8D-   36 22       ROL   $22,X
+0B8F-   00          BRK
+0B90-   00          BRK
+0B91-   00          BRK
+0B92-   22          ???
+0B93-   14 08       TRB   $08
+0B95-   14 22       TRB   $22
+0B97-   00          BRK
+0B98-   00          BRK
+0B99-   00          BRK
+0B9A-   22          ???
+0B9B-   14 08       TRB   $08
+0B9D-   08          PHP
+0B9E-   08          PHP
+0B9F-   00          BRK
+0BA0-   00          BRK
+0BA1-   00          BRK
+0BA2-   3E 10 08    ROL   $0810,X
+0BA5-   04 3E       TSB   $3E
+0BA7-   00          BRK
+0BA8-   00          BRK
+0BA9-   00          BRK
+0BAA-   00          BRK
+0BAB-   38          SEC
+0BAC-   64 54       STZ   $54
+0BAE-   4C 38 00    JMP   $0038
+0BB1-   00          BRK
+0BB2-   00          BRK
+0BB3-   10 18       BPL   $0BCD
+0BB5-   10 10       BPL   $0BC7
+0BB7-   10 00       BPL   $0BB9
+0BB9-   00          BRK
+0BBA-   00          BRK
+0BBB-   38          SEC
+0BBC-   40          RTI
+0BBD-   20 18 78    JSR   $7818
+0BC0-   00          BRK
+0BC1-   00          BRK
+0BC2-   00          BRK
+0BC3-   38          SEC
+0BC4-   40          RTI
+0BC5-   20 40 38    JSR   $3840
+0BC8-   00          BRK
+0BC9-   00          BRK
+0BCA-   00          BRK
+0BCB-   10 18       BPL   $0BE5
+0BCD-   14 3C       TRB   $3C
+0BCF-   10 00       BPL   $0BD1
+0BD1-   00          BRK
+0BD2-   00          BRK
+0BD3-   38          SEC
+0BD4-   08          PHP
+0BD5-   38          SEC
+0BD6-   40          RTI
+0BD7-   38          SEC
+0BD8-   00          BRK
+0BD9-   00          BRK
+0BDA-   00          BRK
+0BDB-   08          PHP
+0BDC-   04 1C       TSB   $1C
+0BDE-   24 18       BIT   $18
+0BE0-   00          BRK
+0BE1-   00          BRK
+0BE2-   00          BRK
+0BE3-   3C 20 10    BIT   $1020,X
+0BE6-   10 10       BPL   $0BF8
+0BE8-   00          BRK
+0BE9-   00          BRK
+0BEA-   00          BRK
+0BEB-   10 28       BPL   $0C15
+0BED-   10 28       BPL   $0C17
+0BEF-   10 00       BPL   $0BF1
+0BF1-   00          BRK
+0BF2-   00          BRK
+0BF3-   18          CLC
+0BF4-   24 38       BIT   $38
+0BF6-   10 08       BPL   $0C00
+0BF8-   00          BRK
+0BF9-   00          BRK
+0BFA-   00          BRK
+0BFB-   D0 09       BNE   $0C06
+0BFD-   2B          ???
+0BFE-   0A          ASL
+0BFF-   28          PLP
+0C00-   0A          ASL
+0C01-   D8          CLD
+0C02-   08          PHP
